@@ -1,17 +1,17 @@
 import { useEffect, useRef } from "react";
 
-export const useClick = onClick => {
-  if (typeof onClick !== "function") {
+export const useHover = onHover => {
+  if (typeof onHover !== "function") {
     return;
   }
   const element = useRef();
   useEffect(() => {
     if (element.current) {
-      element.current.addEventListener("click", onClick);
+      element.current.addEventListener("click", onHover);
     }
     return () => {
       if (element.current) {
-        element.current.removeEventListener("click", onClick);
+        element.current.removeEventListener("click", onHover);
       }
     };
   }, []);
