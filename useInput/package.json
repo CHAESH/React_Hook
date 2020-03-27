@@ -1,0 +1,28 @@
+{
+  "name": "@chae_hook/use-input",
+  "version": "1.0.0",
+  "description": "React Hook to update input and add validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CHAESH/React_Hook.git"
+  },
+  "keywords": [
+    "react",
+    "input",
+    "hooks"
+  ],
+  "author": "Sanghee Chae <csh1708@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CHAESH/React_Hook/issues"
+  },
+  "homepage": "https://github.com/CHAESH/React_Hook#readme",
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
