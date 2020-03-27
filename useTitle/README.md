@@ -18,7 +18,7 @@ npm i @chae_hook/use-title
 
 ## Usage
 
-```
+```javascript
 import React from "react;
 import useTitle from "@chae_hook/use-title;
 
