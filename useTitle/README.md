@@ -13,17 +13,17 @@ yarn i @chae_hook/use-title
 ### npm
 
 ```
-npm i @chae_hook/use-title
+npm i @chae_hook/use-title**
 ```
 
 ## Usage
 
 ```javascript
-import React from "react;
-import useTitle from "@chae_hook/use-title;
+import React from "react";
+import useTitle from "@chae_hook/use-title";
 
 funciton App() {
-    useTitle("Welcome);
+    useTitle("Welcome");
     return <h1> Welcome</h1>
 }
 ```
