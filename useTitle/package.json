@@ -1,0 +1,27 @@
+{
+  "name": "@chae_hook/use-title",
+  "version": "1.0.0",
+  "description": "React Hook to update your document's title",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CHAESH/React_Hook.git"
+  },
+  "keywords": [
+    "react",
+    "react",
+    "hooks",
+    "title",
+    "hooks"
+  ],
+  "author": "Sanghee Chae <csh1708@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CHAESH/React_Hook/issues"
+  },
+  "homepage": "https://github.com/CHAESH/React_Hook#readme",
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
